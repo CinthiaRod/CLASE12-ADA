@@ -18,5 +18,5 @@ for(let lap=1; lap<=Students; lap++){
 };
 
 //5.Imprime en consola las notas ingresadas usando el array notas.
-console.log(`The Ratings are: ${Ratings}`);
+console.log(`The Ratings of the students are: ${Ratings}`);
 
