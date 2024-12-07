@@ -6,7 +6,6 @@
 const prompt=require('prompt-sync')();
 //Definiendo variables
 let Sum=0;
-let Lap=0;
 let Number='';
 //Ingresando condición para que el número sea mayor o igual a 0
 while(Number >= 0){
@@ -16,7 +15,6 @@ Number=parseInt(prompt("Please enter a number:"));
 if (!isNaN(Number)){
     //Sumando los números de cada vuelta
 Sum += Number;
-Lap++
 //Condición en caso de que sea diferente a número
 } else{
     console.log('You entered something that is not a number! ');
