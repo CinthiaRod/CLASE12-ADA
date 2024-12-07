@@ -11,7 +11,8 @@ const DataMatrix =[
 ];
 let sum = 0;
 
-// recorrer sus valores y
+// recorrer sus valores y 
+//(Elegí recorrer por filas y después por cada uno de los elementos de la fila usando un segundo for)
 for (let Count= 0; Count< DataMatrix.length; Count++){
     for(let i=0; i<DataMatrix[Count].length; i++){
         let Numbers = DataMatrix[Count][i];
@@ -23,6 +24,4 @@ for (let Count= 0; Count< DataMatrix.length; Count++){
     }
     }
 console.log(`The sum is: ${sum}`)
-
-
 
